@@ -49,6 +49,14 @@ ul {
   text-decoration: none;
   display: flex;
 }
+.header-a.active {
+ font-weight: bold;
+ color: var(--color-1);
+}
+.header-a-nav.active {
+  font-weight: bold;
+ color: var(--color-1);
+}
 .header-a:active {
   color: var(--color-1);
 }
@@ -400,6 +408,9 @@ transform: translateY(-1%) translateX(0);
   color: var(--color-1);
   font-size: 48px;
   font-family: "Playfair Display";
+  margin-bottom: 0px;
+  
+  height:130px;
 }
 footer {
   background-color: var(--color-7);
